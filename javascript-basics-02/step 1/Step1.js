@@ -16,7 +16,7 @@
 
 document.addEventListener('DOMContentLoaded',function(){
 
-    var imgElemet=document.getElementById("image1");
+    var imgElemet=document.querySelector("#image1");
 
     imgElemet.addEventListener("mouseover", (e)=>{
         e.target.setAttribute("src","./images/image1_2.jpg  ")   } );
