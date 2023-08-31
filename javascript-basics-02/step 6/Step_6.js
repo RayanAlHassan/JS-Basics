@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded",()=>{
             img.setAttribute('src', `./images/${img.id}_2.jpg`)
 
             img.addEventListener("mouseout",()=>{
-                img.setAttribute(`src`,`./images/${img.id}.jpg`)
+                img.setAttribute(`src`,`./images/${img.id}`.jpg)
             })
         })
     })
 })
 
+1
