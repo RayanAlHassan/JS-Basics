@@ -14,14 +14,21 @@
 //     })
 //     })
 
- function submiting(){
-        let name = document.forms["form1"]["name"].value;
-    let surname =document.forms["form1"]["surname"].value;
-    let city =document.forms["form1"]["city"].value;
+//  function submiting(){
+//         let name = document.forms["form1"]["name"].value;
+//     let surname =document.forms["form1"]["surname"].value;
+//     let city =document.forms["form1"]["city"].value;
 
-    window.alert("Nom:"+ name +"\nPrenom:"+ surname+"\nVillage:"+ city);
+//     window.alert("Nom:"+ name +"\nPrenom:"+ surname+"\nVillage:"+ city);
 
- }
+//  }
  
+document.addEventListener("DOMContentLoaded",function(){
+    let name = prompt("enter name");
+    let surname = prompt("enter surname");
+    let city =prompt("enter city");
 
+   
+    window.alert("Nom:"+ name +"\nPrenom:"+ surname+"\nVillage:"+ city)
+})
  
