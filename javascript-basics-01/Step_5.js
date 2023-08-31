@@ -8,7 +8,7 @@
 
 document.addEventListener("DOMContentLoaded",function(){
     let num1 = prompt("enter num 1");
-    let num2g = prompt("enter nume 2");
+    let num2 = prompt("enter nume 2");
   
 
    
