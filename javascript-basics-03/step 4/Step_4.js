@@ -8,3 +8,9 @@ if(pass.value!==conf.value){
     conf.style.borderColor="red"
 }
 })
+let imge= "image.jpg"
+
+console.log(imge.split("."))   // 0:image 1:jpg
+console.log(imge.split("")) // ['i', 'm', 'a', 'g', 'e', '.', 'j', 'p', 'g']
+console.log(imge.split(".").pop()) // jpg
+console.log(  imge.split(" ").length-1)
